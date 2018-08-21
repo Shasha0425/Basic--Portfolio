@@ -1,9 +1,23 @@
-
+* {
+    box-sizing: border-box;
+}
 body {
     width: 100%;
     margin: auto;
     background-image: url("../images/congruent_pentagon.png");
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
     }
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    
+}
 .header {
     background: white;
     width: 100%;
@@ -66,6 +80,10 @@ h1{
     font-size: 30px;
 }
 
+.profile-pic {
+    float: left;
+    padding: 25px;
+}
 .lines {
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 3px;
@@ -76,3 +94,8 @@ h1{
     border-right: none;
 
    }
+
+.wrapper {
+    width: 700px;
+    padding: 10px;
+}
